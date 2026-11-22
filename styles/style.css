@@ -639,10 +639,9 @@ p {
     align-items: flex-start;
     flex-direction: column;
   }
-}
+:root {
   --shadow: 0 18px 45px rgba(28, 55, 48, .09);
 }
-
 * {
   box-sizing: border-box;
 }
@@ -1503,3 +1502,4 @@ p { color: var(--muted); }
   .feedback-form { padding: 23px; }
   .site-footer { align-items: flex-start; flex-direction: column; }
 }
+}}
