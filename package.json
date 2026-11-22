@@ -2,12 +2,9 @@
   "name": "readers-haven-libary",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },"scripts": {
-  "build": "parcel build src/*.html --dist-dir dist"
-},
+    "build": "parcel build src/*.html --dist-dir dist"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -16,5 +13,4 @@
     "parcel": "^2.16.4",
     "save-dev": "^0.0.1-security"
   }
-  
 }
